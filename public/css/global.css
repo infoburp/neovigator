@@ -23,23 +23,24 @@ a {
 	text-decoration: none;
 }
 
+#logo {
+position: absolute;
+	top: 0px;
+	left: 0px;}
 a:hover {
 	color: #000;
 	/*border-bottom: 2px solid #000;*/
 }
 
 header {
-	margin: 0;
-	padding: 5px;
 	position: absolute;
-	top: 5px;
+	top: 0px;
 	left: 0px;
 	right: 0px;
 }
 
 header section#title {
 	float: left;
-	margin-top: 5px;
 }
 
 header section#title p {
@@ -73,17 +74,18 @@ html,body {
 	font-variant:normal;
 	font-weight:normal;
 	line-height:normal;
-	background: #eaefe0;
+	background: #000000;
 }
 
 
 
 xs {
-	color: #a68d49;
+	color: #ffffff;
 }
 
 body {
-	padding:5px;
+	padding:0px;
+  background: #000000;
 }
 
 header h1 {
@@ -99,13 +101,13 @@ header h1 {
 
 h2 {
   font-size: 19px;
-  color: #000;
+  color: #ffffff;
   border-bottom: 1px solid #000;
 }
 
 h3 {
   font-size: 15px;
-  color: #000;
+  color: #ffffff;
   border-bottom: 1px solid #000;
 }
 
@@ -116,26 +118,26 @@ section#content {
   bottom: 200px;
   left: 0px;
   right: 0px;
-	margin-top: 5px;
+	margin-top: 0px;
 	margin: auto;
-	width: 400px;
+	width: 400px;  background: #000000;
 }
 
 aside {
   font-size: 12px;
   position: absolute;
-  right: 17px;
-  top: 80px;
-  bottom: 50px;
-  width: 290px;
+ height: 18%;
+  top: 10px;
+  width: 18%;
   padding: 10px;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border: 1px solid #c1c1c1;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border: 0px solid #ffffff;
   line-height: 1.5em;
-  background: #fff;
-	opacity: 0.9;
+color: #ffffff;
+  background: #000000;
+	
 	overflow: auto;
 }
 
@@ -152,6 +154,7 @@ ul.links {
 	border: none;
 }
 
+
 ul.links li {
   margin: 0;
   margin-bottom: 3px;
@@ -165,12 +168,12 @@ ul.links li:hover {
 ul.links li a {
   width: auto;
 }
-
+#neoviz{background-color:#000000;}
 section#infovis {
   display: none;
 	height:550px;
 	overflow: hidden;
-	background-color:#F4F4F4;
+	background-color:#000000;
 }
 
 .hidden {  
@@ -212,7 +215,7 @@ section#infovis {
     opacity: 0.9;
     border-radius: 5px;
     padding: 5px;
-    width: 300px;
+    width: 12%;
 		font-family: GraublauWeb, "Helvetica Neue", Helvetica, Arial, sans-serif;
 		text-align: right;
 		font-size: 13px;

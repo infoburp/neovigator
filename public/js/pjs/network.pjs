@@ -19,12 +19,12 @@ colors[11] = color(157, 175, 55);
 color LABEL_COLOR = color(150);
 color HIGHLIGHTED_LABEL_COLOR = color(55);
 color DONUT_BACKGROUND = color(255);
-color BACKGROUND = color(234,239,224);
+color BACKGROUND = color(0,0,0);
 
 // global constants
 float STROKE_WEIGHT_COLLAPSED = 50;
 float STROKE_WEIGHT_EXPANDED = 60;
-float OUTER_BORDER = 5;
+float OUTER_BORDER = 8;
 
 float RADIUS_OPENED = 110;
 float RADIUS_CLOSED = 50;

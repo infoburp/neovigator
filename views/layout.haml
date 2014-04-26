@@ -13,14 +13,7 @@
     %canvas#neoviz
     %header
       %section#title
-        %h1 Neovigator
-        %p Neography Browser
-      %section#search
-        %form{:action => "/", :method => "get"}
-          %label Node ID:
-          %input#neoid{:type => "text", :value => "#{@neoid}", :name => "neoid"}
-          %input#loadnode{:type => "submit", :value => "Load", :class => "button"}
-      %br{:style => "clear: both;"}
+        %img{:src => "/img/logoinv.png", :id =>"logo"}
     %section#content
       = yield
     %aside
@@ -65,7 +58,12 @@
         %p
           Available at
           %a{:href => "https://github.com/maxdemarzi/neovigator", :target => "_blank"} Github    
-
+        %section#search
+        %form{:action => "/", :method => "get"}
+          %label Node ID:
+          %input#neoid{:type => "text", :value => "#{@neoid}", :name => "neoid"}
+          %input#loadnode{:type => "submit", :value => "Load", :class => "button"}
+      %br{:style => "clear: both;"}
       <div id="browser_not_supported">
       Your Browser is currently not supported.<br/><br/>Try one of these:<br/>
       <a href="http://www.mozilla.com/en-US/firefox/firefox.html">Firefox 3.6</a><br/>
